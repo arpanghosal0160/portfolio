@@ -5,6 +5,18 @@
     margin: 0;
 }
 
+.skeleton{
+    animation: skeleton-loading 1s linear infinite alternate;
+}
+@keyframes animation {
+    0%{
+        background-color: hsl(200, 20%, 70%);
+    }
+    100%{
+        background-color: hsl(200, 20%, 95%);
+    }
+}
+
 html{
     scroll-behavior: smooth;
 }
